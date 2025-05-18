@@ -28,7 +28,7 @@ The face recognition system requires the following dependencies:
 - **Interface (Optional)**: Gradio (for interactive UI)
 
 ```bash
-pip install fastai==2.7.12 face-recognition dlib albumentations numpy pandas pillow matplotlib gradio
+pip install fastai==2.8.1 face-recognition dlib albumentations numpy pandas pillow matplotlib gradio
 ```
 
 ---
