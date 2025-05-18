@@ -15,8 +15,6 @@ import time
 DATA_PATH = Path('./42amman-profiles')
 print(f"Number of profile images: {len(list(DATA_PATH.glob('*.jpg')))}")
 
-
-
 # Create processed data directory
 PROCESSED_PATH = Path('./processed_faces')
 PROCESSED_PATH.mkdir(exist_ok=True)
